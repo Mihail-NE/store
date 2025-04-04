@@ -21,6 +21,7 @@ func main() {
 	}
 
 	db, err := initDatabase()
+	// test
 	if err != nil {
 		log.Fatalf("Ошибка подключения к базе данных: %v", err)
 	}
